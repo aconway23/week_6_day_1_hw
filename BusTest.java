@@ -17,4 +17,9 @@ public class BusTest {
     int number = bus.getNumber();
     assertEquals(6, number);
   }
+
+  @Test
+  public void busStartsEmpty() {
+    assertEquals(0, bus.personCount());
+  }
 }

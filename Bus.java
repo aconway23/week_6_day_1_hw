@@ -11,4 +11,17 @@ class Bus {
   public int getNumber() {
     return this.number;
   }
+
+  public int personCount() {
+    int count = 0;
+    for(Passenger passenger : passenger){
+      if(passenger != null){
+        count++;
+      }
+    }
+    return count;
+  }
+
+
+  
 }

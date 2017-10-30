@@ -1,3 +1,9 @@
 public class Passenger {
-  private String name;
+  // private int number;
+
+  // public Passenger(String name){
+  //   this.name = name;
+  //   this.passenger = new Passenger[10];
+  // }
+
 }
